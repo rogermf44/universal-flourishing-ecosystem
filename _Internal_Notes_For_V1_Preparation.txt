@@ -1,0 +1,57 @@
+Internal Notes — Preparing Version 1 (for Founder’s Reference Only)
+
+1. Principle of Continuity
+- Version 0 is immutable. Never alter or overwrite any file in the V0 archive.
+- Every new release must begin as a clone of the previous folder, with its version number incremented.
+- Keep V0 exactly as it stands; it is the philosophical baseline.
+
+2. Folder & Naming Protocol
+Each iteration uses this structure:
+UFB_VX_YYYY_The_Finessed_Foundation/
+Example: UFB_V1_2026_The_Finessed_Foundation/
+Within each version folder:
+- Retain Manifesto, Executive_Deck, Visuals, README, and Curation Guide.
+- Add new or updated materials as numbered modules (e.g., Module_01_NewResearch.pdf).
+- Include a file Changelog_V1.txt summarizing additions or revisions.
+
+3. Version Metadata Updates
+Update the embedded metadata fields for Version 1:
+- Version: 1.0 (Validated Field Edition)
+- Date: Year of release
+- Contributors: Names of new authors or collaborators
+- Description: Brief 2-sentence note describing the evolution (e.g., “Integrates field data from early adopters; adds HFF pilot metrics.”)
+- Parent Framework: Universal Flourishing Ecosystem (UFE) — remains unchanged
+
+4. Files to Preserve Unchanged
+File           | Status   | Reason
+Manifesto.pdf   | Immutable | Foundational philosophy
+UFE_Gears_of_Flourishing.png | Immutable | Symbolic constant
+UFE_Gears_of_Flourishing_Loop.mp4 | Immutable | Visual emblem
+README.txt      | Update only “Version” and “Contents” sections | Maintain evolution log
+UFE_Curation_Guide_V0.txt/pdf | Copy as V1 edition if policies evolve | Continuity of stewardship
+
+5. Human Flourishing Formula Integration (HFF)
+Beginning in V1, create a /Data subfolder for empirical collaborations:
+Data/
+├── HFF_Datasets/
+├── Indicators_Metadata.txt
+└── Insights_Summaries.pdf
+- Only anonymized and aggregated data permitted.
+- Document every source with date and institutional origin.
+- Reference data contributors in the Manifesto appendix as Participating Nodes of the Federation.
+
+6. Review and Publication Cycle
+1. Draft (V1.x-beta): open feedback from partners.
+2. Peer Review: at least one academic or ethical review per cycle.
+3. Release (V1.0): formalized update; publish through Foundation channels.
+4. Public Announcement: append new Release Note (placed last).
+
+7. Ethical Anchor
+Every update must preserve humility.
+The Blueprint may expand in data and scope, but never in self-importance.
+
+8. Closing Note for Custodians
+If you ever doubt whether a change should be made — ask:
+Does it increase clarity, transparency, or compassion?
+If the answer is yes, proceed.
+If not, leave it untouched.
